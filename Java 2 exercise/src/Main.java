@@ -9,9 +9,9 @@ public class Main {
         } else {
             bonus = 0; // Бонус равен 0 если сумма пополнения менее 1000
         }
-        int z = check + replenishment + bonus;  // Итоговая сумма должна включать бонусы
+        int totalAmount = check + replenishment + bonus;  // Итоговая сумма должна включать бонусы
 
-        System.out.println("Итоговая сумма на счете Клиента после пополнения с учетом бонуса = " + z);
+        System.out.println("Итоговая сумма на счете Клиента после пополнения с учетом бонуса = " + totalAmount);
         System.out.println("В том числе сумма начисленных бонусов за пополнение счета = " + bonus);
     }
 }
